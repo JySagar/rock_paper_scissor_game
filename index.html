@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RPS Game</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <!-- Heading Section -->
+
+        <div class="HeadingDiv">
+            <h1>ROCK - PAPER - SCISSOR</h1>
+        </div>
+
+
+        <!-- Content Section -->
+        
+        <!-- Who Won -->
+        <div class="whoWonDiv">
+            <!-- <h2 id="userWon">Won</h2> -->
+            <h2 id="drawWon"></h2>
+            <!-- <h2 id="compWon">Won</h2> -->
+        </div>
+
+        <!-- Score Section -->
+        <div class="ScoreDiv">
+            <h2 id="userEle" class="UserNComp">User: </h2>
+            <h2 id="zeroEleL">0</h2>
+            <h2>:</h2>
+            <h2 id="zeroEleR">0</h2>
+            <h2 id="compEle" class="UserNComp"> :Comp</h2>
+        </div>
+
+        <hr id="hrID">
+
+        <!-- Icon Section -->
+        <div class="IconDiv">
+            <img onclick="paperChoseFn()" id="paperChose" class="iconPRS" src="icons/paper.jpg" alt="">
+            <img onclick="rockChoseFn()" id="rockChose" class="iconPRS" src="icons/rock.jpg" alt="">
+            <img onclick="scissorChoseFn()" id="scissorChose" class="iconPRS" src="icons/scissor.jpg" alt="">
+        </div>
+
+        <hr id="hrID">
+
+        <!-- message Section -->
+        <div class="msgDiv">
+            <h1 id="userChose" class="msgCls">You chose: </h1>
+            <h1 id="compChose" class="msgCls">Computer chose: </h1>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,109 @@
+*{
+    /* background-color: bisque; */
+    margin: 5px;
+    /* padding: 0; */
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(99, 84, 62);
+}
+
+/* Headin Section */
+
+
+.HeadingDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(162, 117, 62);
+    height: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Content Section */
+
+
+/* Who Won Section */
+
+.whoWonDiv{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0px;
+    border: 2px solid black;
+    margin: 10px 15rem 0px 15rem;
+    background-color: lightslategray;
+    border-radius: 20px;
+}
+
+/* Score Section */
+
+.ScoreDiv{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0rem 2rem 2rem 2rem;
+}
+
+.UserNComp{
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: rgb(162, 117, 62);
+}
+
+#userEle{
+    margin-left: 290px;
+}
+
+#compEle{
+    margin-right: 290px;
+}
+
+#zeroEleL{
+    margin-left: 100px;
+}
+
+#zeroEleR{
+    margin-right: 100px;
+}
+
+/* Icon Section */
+
+
+.iconPRS{
+    width: 150px;
+    border: 5px solid orange;
+    border-radius: 20px;
+}
+
+.IconDiv{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+/* Message Section */
+
+
+#hrID{
+    height: 10px;
+    margin: 50px 100px;
+    background-color: rgba(154, 118, 74, 0.753);
+}
+
+.msgDiv{
+    display: flex;
+    justify-content: space-around;
+}
+
+.msgCls{
+    border: 2px solid rgb(137, 115, 77);
+    padding: 8px 10px;
+    border-radius: 10px;
+    background-color: rgb(162, 117, 62);
+}
